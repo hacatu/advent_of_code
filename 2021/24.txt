@@ -1,0 +1,50 @@
+inp w
+	z = w + 7
+inp w
+	z = 26*z + w + 15
+inp w
+	z = 26*z + w + 2
+inp w
+	x = z%26 - 3
+	z = z/26
+	if x != w
+		z = 26*z + w + 15
+inp w
+	z = 26*z + w + 14
+inp w
+	x = z%26 - 9
+	z = z/26
+	x != w
+		z = 26*z + w + 2
+inp w
+	z = 26*z + w + 15
+inp w
+	x = z%26 - 7
+	z = z/26
+	if x != w
+		z = 26*z + w + 1
+inp w
+	x = z%26 - 11
+	z = z/26
+	if x != w
+		z = 26*z + w + 15
+inp w
+	x = z%26 - 4
+	z = z/26
+	if x != w
+		z = 26*z + w + 15
+inp w
+	z = 26*z + w + 12
+inp w
+	z = 26*z + w + 2
+inp w
+	x = z%26 - 8
+	z = z/26
+	if x != w
+		z = 26*z + w + 13
+inp w
+	x = z%26 - 10
+	z = z/26
+	if x != w
+		z = 26*z + w + 13
+
